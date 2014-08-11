@@ -1,4 +1,4 @@
-var DHT    = require('bittorrent-dht');
+var DHT    = require('./dht');
 var magnet = require('magnet-uri');
 var uri = 'magnet:?xt=urn:btih:04a8c73349e0fe148557c3a9ba8482e0aa67ad49&dn=Captain+America+The+Winter+Soldier+%282014%29+1080p+BrRip+x264+-+YIF&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.istole.it%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337';
 var parsed = magnet(uri);
