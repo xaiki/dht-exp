@@ -7,7 +7,7 @@
     "bittorrent-dht": "^2.0.0",
     "bittorrent-tracker": "^0.7.3",
     "magnet-uri": "^2.0.1",
-    "parse-torrent": "^0.6.0",
+    "parse-torrent": "^0.6.0"
   },
   "devDependencies": {},
   "scripts": {
