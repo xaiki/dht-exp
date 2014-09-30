@@ -1,0 +1,7 @@
+* TODO [0/1] bittorrent-dht
+:LOGBOOK:
+- State "TODO"       from ""           [2014-08-11 Mon 06:14]
+:END:
+** TODO make lookup generic
+needed for diff requests
+** 
