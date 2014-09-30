@@ -6,12 +6,20 @@
   "dependencies": {
     "bittorrent-dht": "^2.0.0",
     "bittorrent-tracker": "^0.7.3",
+    "diff": "^1.0.8",
+    "hound": "^1.0.4",
     "magnet-uri": "^2.0.1",
-    "parse-torrent": "^0.6.0"
+    "memory-stream": "0.0.3",
+    "parse-torrent": "^0.6.0",
+    "tar-fs": "^0.4.1",
+    "zip": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "ip": "^0.3.0",
+    "tape": "^2.12.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js"
   },
   "keywords": [
     "dht"
